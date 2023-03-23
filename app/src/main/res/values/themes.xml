@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Exam" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Exam" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -12,5 +12,34 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="myBackGround." parent="Theme.MaterialComponents">
+        <item name="android:background">@color/blue</item>
+    </style>
+    <style name="MyTitle." parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AllTexts." parent="TextAppearance.AppCompat.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MyButton." parent="Widget.AppCompat.Button">
+        <item name="android:clickable">true</item>
+        <item name="android:enabled">true</item>
+    </style>
+    <style name="MyLinks." parent="MyButton.">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="MyInputs." parent="Widget.AppCompat.TextView">
+        <item name="android:background">@color/lightblue</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:radius">50dp</item>
     </style>
 </resources>
